@@ -8,11 +8,34 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 673552408
+  numberOfFiles: 63
+  numberOfSubjects: 63
   schemaKey: AssetsSummary
-citation: Haesemeyer, Martin (2026) Behavioral Fever and Compound 3 20-30 C (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002027/draft
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_7955
+    name: Danio rerio - Zebra fish
+    schemaKey: SpeciesType
+  variableMeasured:
+  - CompassDirection
+  - ProcessingModule
+  - BehavioralTimeSeries
+  - Position
+  - SpatialSeries
+citation: Haesemeyer, Martin; Cutler, Bradley (2026) Behavioral Fever and Compound
+  3 20-30 C (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002027/draft
 contributor:
 - affiliation:
   - name: The Ohio State University
@@ -32,6 +55,7 @@ contributor:
 - affiliation:
   - name: The Ohio State University
     schemaKey: Affiliation
+  includeInCitation: true
   name: Cutler, Bradley
   roleName:
   - dcite:DataCollector
