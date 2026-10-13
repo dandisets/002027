@@ -35,7 +35,7 @@ assetsSummary:
   - Position
   - SpatialSeries
 citation: Haesemeyer, Martin; Cutler, Bradley (2026) Behavioral Fever and Compound
-  3 20-30 C (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002027/draft
+  3 20-30 C (Version 0.261013.1840) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.002027/0.261013.1840
 contributor:
 - affiliation:
   - name: The Ohio State University
@@ -61,20 +61,34 @@ contributor:
   - dcite:DataCollector
   schemaKey: Person
 dateCreated: '2026-10-12T16:27:23.805222+00:00'
+datePublished: '2026-10-13T18:40:31.923277+00:00'
 description: Gradient navigation behavior of larval zebrafish after poly(I:C) or control
   injections in the presence/absence of specific mPGES-1 inhibitor Compound 3
+doi: 10.48324/dandi.002027/0.261013.1840
 ethicsApproval: []
-id: DANDI:002027/draft
+id: DANDI:002027/0.261013.1840
 identifier: DANDI:002027
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/002027/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/002027/0.261013.1840/assets.yaml
 name: Behavioral Fever and Compound 3 20-30 C
+publishedBy:
+  endDate: '2026-10-13T18:40:31.923277+00:00'
+  id: urn:uuid:21723db9-9fc6-49b9-8cb2-fd2ad13757b0
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-10-13T18:40:31.923277+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:b9bdf493-6c01-40c5-ba69-6eeabfd3568a
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/002027/draft
-version: draft
+url: https://dandiarchive.org/dandiset/002027/0.261013.1840
+version: 0.261013.1840
 wasGeneratedBy: []
